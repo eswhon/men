@@ -1,21 +1,21 @@
 import os
 import logging
 
-api_id = int(os.environ.get("API_ID", "21800932"))
-api_hash = os.environ.get("API_HASH", "99f0cbc018ba5c9c3bc33eadfb122bc9")
-bot_token = os.environ.get("BOT_TOKEN", "6087937854:AAE0heotf-6NJBSMI_-7zkfMW11WsdSe1WM")
+api_id = int(os.environ.get("API_ID", "28509321"))
+api_hash = os.environ.get("API_HASH", "ecab5787223afbadb69907b8b5ec405e")
+bot_token = os.environ.get("BOT_TOKEN", "5849560668:AAED22x-VqDch98Z0g9GEap4r8tdiM7a-OU=")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://username:password@cluster0.d9fwl.mongodb.net/?retryWrites=true&w=majority")
-db_name = os.environ.get("DB_NAME", "telegram")
+db_url = os.environ.get("DB_URL", "mongodb+srv://ubot:ubot@ubot.walq0cc.mongodb.net/?retryWrites=true&w=majority")
+db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001689667698"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001805758980"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001805758980"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001919784012"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001555949646"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001981609904"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "5957349333"))
+id_admin = int(os.environ.get("ID_ADMIN", "1863087128"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
