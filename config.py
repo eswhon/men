@@ -3,7 +3,7 @@ import logging
 
 api_id = int(os.environ.get("API_ID", "28509321"))
 api_hash = os.environ.get("API_HASH", "ecab5787223afbadb69907b8b5ec405e")
-bot_token = os.environ.get("BOT_TOKEN", "5849560668:AAED22x-VqDch98Z0g9GEap4r8tdiM7a-OU=")
+bot_token = os.environ.get("BOT_TOKEN", "5849560668:AAED22x-VqDch98Z0g9GEap4r8tdiM7a-OU")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://ubot:ubot@ubot.walq0cc.mongodb.net/?retryWrites=true&w=majority")
