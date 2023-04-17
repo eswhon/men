@@ -11,7 +11,7 @@ db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001919784012"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001555949646"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001705648485"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001981609904"))
 # =========================================================== #
 
@@ -36,7 +36,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#wts #wtb #admin #help #Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
