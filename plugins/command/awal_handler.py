@@ -97,7 +97,7 @@ async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
     pesan = "Silahkan gunakan format berikut untuk mengirim pesan\n"
-    pesan += 'Gunakan Tag # sesuai dengan topik'
+    pesan += '#help #girl #boy #gosib #ask #find #mabar'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
