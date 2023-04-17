@@ -18,7 +18,7 @@ channel_log = int(os.environ.get("CHANNEL_LOG", "-1001981609904"))
 id_admin = int(os.environ.get("ID_ADMIN", "1863087128"))
 # =========================================================== #
 
-batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
+batas_kirim = int(os.environ.get("BATAS_KIRIM", "12"))
 batas_talent = int(os.environ.get("BATAS_TALENT", "10"))
 batas_daddy_sugar = int(os.environ.get("BATAS_DADDY_SUGAR", "10"))
 batas_moansgirl = int(os.environ.get("BATAS_MOANSGIRL", "10"))
