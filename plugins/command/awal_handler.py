@@ -82,7 +82,7 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
     first_name = msg.from_user.first_name
     last_name = msg.from_user.last_name
     fullname = first_name if not last_name else first_name + ' ' + last_name
-    username = '@mahadappa' if not msg.from_user.username else '@' + msg.from_user.username
+    username = '@ZeeYeonho' if not msg.from_user.username else '@' + msg.from_user.username
     mention = msg.from_user.mention
     return await msg.reply(config.gagalkirim_msg.format(
         id = msg.from_user.id,
@@ -97,7 +97,7 @@ async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
     pesan = "Silahkan gunakan format berikut untuk mengirim pesan\n"
-    pesan += 'Gunakan Format Tag # sesuai dengan topik'
+    pesan += 'Gunakan Tag # sesuai dengan topik'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
